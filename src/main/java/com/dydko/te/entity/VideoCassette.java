@@ -1,8 +1,12 @@
-package com.dydko.te;
+package com.dydko.te.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.time.LocalDate;
 
+@Entity
 public class VideoCassette {
+    @Id
     private Long id;
     private String title;
     private LocalDate productionYear;

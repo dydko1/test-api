@@ -1,5 +1,6 @@
-package com.dydko.te;
+package com.dydko.te.api;
 
+import com.dydko.te.entity.VideoCassette;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
